@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -13,9 +14,9 @@
       "esnext",
       "dom"
     ],
-    "types": [
-      "element-plus/global"
-    ]
+    "paths": {
+      "@/*": ["src/*"]
+    },
   },
   "include": [
     "src/**/*.ts",
