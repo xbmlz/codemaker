@@ -4,8 +4,12 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    CodeMirror: typeof import('./src/components/CodeMirror/CodeMirror.vue')['default']
+    Editor: typeof import('./src/components/Editor.vue')['default']
     ElSpace: typeof import('element-plus/es')['ElSpace']
     Header: typeof import('./src/components/Header.vue')['default']
+    Output: typeof import('./src/components/Output.vue')['default']
+    SplitPane: typeof import('./src/components/SplitPane.vue')['default']
   }
 }
 

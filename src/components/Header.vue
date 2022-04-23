@@ -4,7 +4,7 @@
       <img alt="logo" src="../assets/logo.svg" />
       <span class="lt-sm-hidden">
         <span>Code Maker</span>
-        <small> (v{{ appVersion }}) </small>
+        <small>(v{{ appVersion }})</small>
       </span>
     </h1>
 
